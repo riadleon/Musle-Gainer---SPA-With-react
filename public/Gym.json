@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.menshealth.com%2Fuk%2Fbuilding-muscle%2Fa755117%2Fthe-10-best-dumbbell-exercises%2F&psig=AOvVaw1D_yyUOSHjRwQk-iJePF7u&ust=1664515656717000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCND95ZaiufoCFQAAAAAdAAAAABAI",
+        "name": "Dumble",
+        "about": "There is many reasons why dumbbell exercises are so popular not only do they offer more variety than almost any other piece of gym kit going, providing you use a little imagination, dumbbell exercises will also help you expedite fat loss, develop total-body strength, build maximum muscle mass and even level up your cardio",
+        "timeCount": 30
+    },
+    {
+        "id": "2",
+        "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thefittingrooms.london%2F2021%2F08%2Fhow-to-do-a-romanian-deadlift%2F&psig=AOvVaw3RdAFw9DsSs0Mjbnz3-l_K&ust=1664515928335000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKjElp6jufoCFQAAAAAdAAAAABAD",
+        "name": "Romanian Deadlift",
+        "about": "“Its a great variation on the traditional deadlift that focuses on your glutes and superior end of your hamstrings,” says Leonard. Practising hip flexion exercises  like the Romanian deadlift can seriously improve your sprint speed and agility",
+        "timeCount": 60
+    },
+    {
+        "id": "3",
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+        "name": "Good Morning",
+        "about": "Its excellent for building the solid foundations that your big lift PBs depend upon. “This is a great posterior chain exercise to strengthen both hamstrings and glutes, while challenging the core,” explains Dick. “Try taking a wider-than-shoulder-width foot position, or sumo stance, to really target the glutes.",
+        "timeCount": 60
+    },
+    {
+        "id": "4",
+        "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.menshealth.com%2Ffitness%2Fa40390575%2Fbench-dip-exercise-alternatives%2F&psig=AOvVaw153TK5JjBtTSiI0u63g4yR&ust=1664517381175000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCJDd6NOoufoCFQAAAAAdAAAAABAD",
+        "name": "Dips",
+        "about": "A good push day workout should also include dips, as they're perfect for targeting the chest and triceps. When dips are performed correctly, you'll get a very good pump.",
+        "timeCount": 40
+    },
+    {
+        "id": "5",
+        "img": "https://cathe.com/wp-content/uploads/2020/01/xTrain-Burn-Sets-6929.jpg",
+        "name": "Dumbbell Flyes",
+        "about": "The dumbbell fly is often thought of as a classic bodybuilding movement as the goal of the exercise is to isolate the chest for aesthetic purposes. The movement itself can be used to help build a stronger bench press but isnt typically thought of from an increased performance stand-point.",
+        "timeCount": 30
+    },
+    {
+        "id": "6",
+        "img": "https://lmimirror3pvr.azureedge.net/static/media/12744/b611db64-fa85-44ab-a0bf-258629af59f3/pushup-study_960x540.jpg",
+        "name": "Push-up",
+        "about": "The push-up (sometimes called a press-up in British English) is a common calisthenics exercise beginning from the prone position. By raising and lowering the body using the arms, push-ups exercise the pectoral muscles, triceps, and anterior deltoids, with ancillary benefits to the rest of the deltoids, serratus anterior, coracobrachialis and the midsection as a whole",
+        "timeCount": 60
+    }
+]
