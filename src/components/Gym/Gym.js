@@ -38,12 +38,21 @@ const Gym = () => {
                     </div>
                 </div>
 
+
+                <div className="text">
+                    <h3>Add a Break</h3>
+                </div>
+
                 <div className="break">
-                    <p>10s</p>
-                    <p>20s</p>
-                    <p>30s</p>
-                    <p>40s</p>
-                    <p>50s</p>
+
+
+                    <button className='btn'>10s</button>
+                    <button className='btn'>20s</button>
+                    <button className='btn'>30s</button>
+                    <button className='btn'>40s</button>
+                    <button className='btn'>50s</button>
+
+
 
                 </div>
 

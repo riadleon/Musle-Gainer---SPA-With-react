@@ -20,15 +20,33 @@
     align-items: center;
     justify-content: center;
 }
-.details{
+
+.details {
     display: grid;
-    grid-template-columns: repeat(3,2fr);
+    grid-template-columns: repeat(3, 2fr);
     background-color: antiquewhite;
     margin-top: 20px;
 }
-.break{
+.text{
+    margin-top: 30px;
+}
+
+.break {
     display: grid;
-    grid-template-columns: repeat(5,2fr);
+    grid-template-columns: repeat(5, 2fr);
     background-color: antiquewhite;
     margin-top: 50px;
+}
+
+.btn {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 50%;
 }
