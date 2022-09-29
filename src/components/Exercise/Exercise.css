@@ -39,17 +39,18 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    background: #31abe4;
+    background: #04AA6D;
     border: 1px solid #95A0A7;
     border-radius: 0px 0px 8px 8px;
     position: absolute;
     bottom: 0;
 }
 
-.btn-text{
+.btn-text {
     margin-right: 5px;
 }
 
-.btn-details:hover{
+.btn-details:hover {
     background: rgb(47, 28, 224);
 }
+
