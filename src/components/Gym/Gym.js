@@ -13,7 +13,7 @@ const Gym = () => {
     return (
         <div className='gym-container'>
             <div className="exercises-container">
-                <h1>Muscle Gainer</h1>
+                
                 {
                     exercises.map(exercise => <Exercise 
                         key={exercise.id}
