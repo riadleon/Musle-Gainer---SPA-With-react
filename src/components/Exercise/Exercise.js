@@ -11,7 +11,7 @@ const Exercise = ({ exercise, addToExerciseTime }) => {
                 <p className='about'>About:{about}</p>
                 <h3>Time Required:{timeCount}</h3>
             </div>
-            <button onClick={() => addToExerciseTime(exercise.timeCount)} className='btn-details'>
+            <button onClick={() => addToExerciseTime(timeCount)} className='btn-details'>
                 <p className='btn-text'>Add to list</p>
             </button>
 

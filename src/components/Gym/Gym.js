@@ -8,7 +8,9 @@ import Details from '../Details/Details';
 
 const Gym = () => {
     const [exercises, setExercises] = useState([]);
-    const [details, setdetails] = useState([])
+    const [details, setdetails] = useState(0)
+    const [breaks, setBreaks] = useState(0)
+
 
 
     useEffect(() => {
@@ -16,16 +18,29 @@ const Gym = () => {
             .then(res => res.json())
             .then(data => setExercises(data))
     }, []);
+    useEffect(() => {
+        const storedValue = parseInt(localStorage.getItem('breakingTime'));
+        if (storedValue) {
+            setBreaks(storedValue);
+        } else {
+            setBreaks(0);
+        }
+    }, [breaks])
 
     const addToExerciseTime = (exercise) => {
 
-        console.log(exercise);
-        const newDetails = [...details, exercise];
-        setdetails(newDetails);
+        // console.log(exercise);
+        // const newDetails =  [...details , exercise] ;
+
+        setdetails(details + exercise);
 
 
 
 
+    }
+    const breakHandler = (time) => {
+        setBreaks(time);
+        localStorage.setItem('breakingTime', time)
     }
 
     return (
@@ -60,11 +75,11 @@ const Gym = () => {
                 <div className="break">
 
 
-                    <button className='btn'>10s</button>
-                    <button className='btn'>20s</button>
-                    <button className='btn'>30s</button>
-                    <button className='btn'>40s</button>
-                    <button className='btn'>50s</button>
+                    <button onClick={() => breakHandler(10)} className='btn'>10s</button>
+                    <button onClick={() => breakHandler(20)} className='btn'>20s</button>
+                    <button onClick={() => breakHandler(30)} className='btn'>30s</button>
+                    <button onClick={() => breakHandler(40)} className='btn'>40s</button>
+                    <button onClick={() => breakHandler(50)} className='btn'>50s</button>
 
 
 
@@ -76,7 +91,7 @@ const Gym = () => {
                             <p> Exercise Time:  {details}s</p>
                         </div>
                         <div className="breakRequired">
-                            <p>Break Time:</p>
+                            <p>Break Time: {breaks} </p>
                         </div>
                     </div>
                 </div>
