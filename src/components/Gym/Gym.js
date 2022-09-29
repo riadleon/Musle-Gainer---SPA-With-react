@@ -4,15 +4,23 @@ import { faLocation } from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
 import './Gym.css'
+import Details from '../Details/Details';
 
 const Gym = () => {
     const [exercises, setExercises] = useState([]);
-
+    
     useEffect(() => {
         fetch('Gym.json')
             .then(res => res.json())
             .then(data => setExercises(data))
     }, []);
+
+    const addToExerciseTime = (exercises) => {
+        console.log(exercises);
+
+
+    }
+
     return (
         <div className='gym-container'>
             <div className="exercises-container">
@@ -21,6 +29,7 @@ const Gym = () => {
                     exercises.map(exercise => <Exercise
                         key={exercise.id}
                         exercise={exercise}
+                        addToExerciseTime={addToExerciseTime}
                     ></Exercise>)
                 }
             </div>
@@ -38,38 +47,8 @@ const Gym = () => {
                     </div>
                 </div>
 
-
-                <div className="text">
-                    <h3>Add a Break</h3>
-                </div>
-
-                <div className="break">
-
-
-                    <button className='btn'>10s</button>
-                    <button className='btn'>20s</button>
-                    <button className='btn'>30s</button>
-                    <button className='btn'>40s</button>
-                    <button className='btn'>50s</button>
-
-
-
-                </div>
-                <div className="time-details">
-                    <h3>Exercies Details</h3>
-                    <div className="input-field">
-                        <div className="timeRequired">
-                            <label htmlFor="">Exercise Time:</label>
-                            <input type="text" />
-                        </div>
-                        <div className="breakRequired">
-                            <label htmlFor="">Break Time:</label>
-                            <input type="text" />
-                        </div>
-                    </div>
-                </div>
-
-                <button className='btn-activity'>Activity Completed</button>
+                <Details></Details>
+               
             </div>
         </div>
     );
