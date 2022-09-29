@@ -1,0 +1,11 @@
+.header {
+    height: 80px;
+    background-color: #f5fbff;
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.tittle-txt{
+    color: rgb(150, 127, 255);
+}
