@@ -11,6 +11,24 @@
     margin: 100px 50px 100px;
 }
 
-.details-container{
-    background: #31abe4;
+.details-container {
+    background: #31e4ae;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+.break{
+    display: grid;
+    grid-template-columns: repeat(5,2fr);
+    background-color: antiquewhite;
+    margin-top: 50px;
 }
